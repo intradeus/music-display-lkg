@@ -3,7 +3,6 @@ const {FontLoader} = require("../node_modules/three/examples/jsm/loaders/FontLoa
 const {TextGeometry} = require("../node_modules/three/examples/jsm/geometries/TextGeometry.js");
 const THREE = require("three");
 global.THREE = THREE;
-const HoloPlay = require("./holoplay");
 
 var scene, camera, renderer,raycaster, holoplay, fontLoader, helvetiker_regular;
 var directionalLight, ambientLight, cubeGeometry;
